@@ -1,0 +1,118 @@
+ID	TYPE	ADD		
+welcome-page	page	left	welcome	home
+	title	welcome-title		
+	content	welcome-description		
+	image	http://creua.github.io/bienfaisance/images/welcome.jpg		
+	subtitle	welcome-goal-title		
+	caption	welcome-goal-1		
+	caption	welcome-goal-2		
+	caption	welcome-goal-3		
+	content	welcome-resume		
+bienfaisance	page	left	topic	help-buoy
+	title	topic-title		
+	content	topic-description		
+	image	http://creua.github.io/bienfaisance/images/petitjournal.jpg	topic-image	
+	content	topic-background		
+	subtitle	topic-interview		
+	content	topic-interview-subject-1		
+	content	topic-interview-subject-2		
+	subtitle	topic-interview-1-q		
+	content	topic-interview-1-a		
+	subtitle	topic-interview-2-q		
+	content	topic-interview-2-a		
+	subtitle	topic-interview-3-q		
+	content	topic-interview-3-a		
+	footer	topic-interview-footer		
+history-more	page			bookmark
+	title	topic-history-more-title		
+	content	topic-history-more-content-1		
+	image	http://creua.github.io/bienfaisance/images/history1.jpg		
+	content	topic-history-more-content-2		
+	image	http://creua.github.io/bienfaisance/images/history2.jpg		
+	content	topic-history-more-content-3		
+	image	http://creua.github.io/bienfaisance/images/handshake.png		
+history	page	bienfaisance	topic-history	bookmarks
+	title	topic-history-title		
+	subtitle	topic-history-detail		
+	image	http://creua.github.io/bienfaisance/images/Ferdinand_de_Lesseps.jpg		
+	content	topic-history-content		
+	link	topic-history-more	history-more	
+function	page	bienfaisance	topic-function	git-network
+	title	topic-function-title		
+	content	topic-function-content		
+actions	ignore	bienfaisance	topic-activity	
+	title			
+	content			
+	subtitle			
+	content			
+	image			
+	subtitle			
+	content			
+	subtitle			
+	content			
+	subtitle			
+	content			
+	image			
+support-page	page	left	support	flash
+	title	support-title		
+	content	support-description		
+	image	http://creua.github.io/bienfaisance/images/handshake.png		
+	title	support-call-title		
+	content	support-call-content		
+	title	support-method-title		
+	caption	support-method-description-1		
+	caption	support-method-description-2		
+	caption	support-method-content		
+support-form-ref	select			
+	option	support-form-a-1		
+	option	support-form-a-2		
+	option	support-form-a-3		
+	option	support-form-a-4		
+support-form	form	support-form-title		
+	input	support-form-name		
+	input	support-form-last		
+	e-mail	support-form-mail		
+	input	support-form-tel		
+	input	support-form-addr		
+	input	support-form-addr1		
+	input	support-form-addr2		
+	input	support-form-postal		
+	input	support-form-city		
+	select	support-form-ref	support-form-q	
+	text-area	support-form-comment		
+	checkbox	support-form-accept		
+support-register-page	page	support-page	support-register	log-in
+	title	support-register-title		
+	content	support-register-description		
+	caption	support-register-description-1		
+	caption	support-register-description-2		
+	caption	support-register-description-3		
+	caption	support-register-description-4		
+	subtitle	support-register-content		
+	caption	support-register-content-1		
+	caption	support-register-content-2		
+	content ignore	support-form-required		
+	form	support-form		
+	content	support-resume		
+contact-form	form
+	input	contact-form-name		
+	e-mail	contact-form-mail		
+	input	contact-form-tel		
+	input	contact-form-comment		
+contact-page	page	left	contact	chatbubbles
+	title	contact-title		
+	content	contact-description		
+	caption	contact-resume		
+	form	contact-form		
+contact-loc	page	contact-page	contact-location	compass
+	title	title-sgfb		
+	content	contact-adress		
+	map	41.402386,2.147156	map-direction?	
+links	page	left	util	open
+	title	util-title		
+	subtitle	util-links-1		
+	link	www.entraidefrancaisemadrid.org	http://www.entraidefrancaisemadrid.org	
+	subtitle	util-links-2		
+	link	www.lesseps.net	http://www.lesseps.net	
+	subtitle	util-links-3		
+	link	www.consulfrance-barcelone.org	http://www.consulfrance-barcelone.org	
