@@ -73,7 +73,12 @@ var Blog = (function () {
         var _this = this;
         this.blog = this.navParams.get('blog');
         this.blogIndex = this.navParams.get('index');
-        this.sceneData.getScene().then(function (data) { return _this.scene = data; });
+        this.sceneData.getScene().then(function (data) {
+            _this.scene = data;
+            if (!_this.scene.language)
+                _this.scene.language = 0;
+            _this.sceneData.structuredGroups();
+        });
     };
     Blog.prototype.openGroup = function (group) {
         this.sceneData.openGroup(group);
