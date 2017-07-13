@@ -94,7 +94,7 @@ support-register-page	page	support-page	support-register	log-in
 	content ignore	support-form-required		
 	form	support-form		
 	content	support-resume		
-contact-form	form
+contact-form	form			
 	input	contact-form-name		
 	e-mail	contact-form-mail		
 	input	contact-form-tel		
